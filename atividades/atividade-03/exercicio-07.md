@@ -16,11 +16,43 @@ Fim Algoritmo
 2. Fritar um Ovo:
 - Descrição: Escreva um pseudocódigo para fritar um ovo.
 - Pseudocódigo:
+Início
 
-3.  Atravessar uma Rua:
+    Aquecer frigideira
+    Adicionar óleo ou manteiga
+
+    Quebrar ovo na frigideira
+
+    Cozinhar até a clara ficar firme
+
+    Temperar com sal e pimenta (opcional)
+
+    Colocar ovo em um prato
+
+Fim
+
+1.  Atravessar uma Rua:
 - Descrição: Escreva um pseudocódigo para atravessar uma rua com segurança.
 - Pseudocódigo:
+Início
 
-4. Fazer uma Vitamina de Banana:
+  Olhar para ambos os lados da rua
+
+  Esperar se houver veículos
+
+  Atravessar a rua
+
+Fim
+
+1. Fazer uma Vitamina de Banana:
 - Descrição: Escreva um pseudocódigo para preparar uma vitamina de banana.
 - Pseudocódigo:
+Início
+
+    Colocar banana e leite no liquidificador
+
+    Liquidificar
+
+    Despejar no copo
+
+Fim

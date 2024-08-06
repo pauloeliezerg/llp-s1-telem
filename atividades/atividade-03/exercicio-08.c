@@ -20,7 +20,7 @@ void converterTemperatura() {
   float temperatura;
   printf("Digite o valor da temperatura em Celsius a ser convertida para Farenheit: \n");
   scanf("%f", &temperatura);
-  printf("A temperatura equivalente em Farenheit é: %.2f", (temperatura*9/5)+32);
+  printf("A temperatura equivalente em Farenheit é: %.2f\n", (temperatura*9/5)+32);
 }
 
 // 3. Exercício: Verificação de Número Par
@@ -63,10 +63,10 @@ void trocarValores() {
 }
 
 int main() {
-  // calculadora();
-  // converterTemperatura();
-  // verificarPar();
-  // calcularMediaPonderada();
-  // trocarValores();
+  calculadora();
+  converterTemperatura();
+  verificarPar();
+  calcularMediaPonderada();
+  trocarValores();
   return 0;
 }

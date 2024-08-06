@@ -20,7 +20,7 @@ void adivinharNumero(int num) {
     printf("Digite um número de 1 a 100: (-1 para sair)\n");
     scanf("%d", &palpite);
     if (palpite == -1) break;
-    if (palpite == num) printf("Parabéns! Você acertou!");
+    if (palpite == num) printf("Parabéns! Você acertou!\n");
   } while (palpite != num);
 }
 
@@ -33,12 +33,12 @@ void calcularSoma() {
   for (index = 1; index <= 10; index += 1) {
     resultado += index;
   }
-  printf("%d", resultado);
+  printf("%d\n", resultado);
 }
 
 int main() {
-  // exibirNumerosPares();
-  // adivinharNumero(99);
-  // calcularSoma();
+  exibirNumerosPares();
+  adivinharNumero(99);
+  calcularSoma();
   return 0;
 }

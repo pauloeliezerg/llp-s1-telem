@@ -11,7 +11,7 @@ void exibirSoma() {
     scanf("%d", &num);
     resultado += num;
   }
-  printf("A soma dos 5 números é: %d", resultado);
+  printf("A soma dos 5 números é: %d\n", resultado);
 }
 
 // 2. Atividade com Array Multidimensional (Matriz):
@@ -23,17 +23,18 @@ int matriz[3][3] = {
   {8, 52, 9},
 };
 
-void calcularDiagonalPrincipal(int matriz[]) {
-  int index;
+void calcularDiagonalPrincipal(int matriz[3][3]) {
+  int i,j;
   int resultado = 0;
-  for (index = 0; index < 9; index += 1) {
-    if(!(index%4)) resultado += matriz[index];
+  for (i = 0; i < 3; i += 1) {
+    for (j = 0; j < 3; j += 1)
+      if(i==j) resultado += matriz[i][j];
   }
-  printf("A soma dos valores na diagonal principal é: %d", resultado);
+  printf("A soma dos valores na diagonal principal é: %d\n", resultado);
 }
 
 int main() {
-  // exibirSoma();
-  // calcularDiagonalPrincipal(matriz);
+  exibirSoma();
+  calcularDiagonalPrincipal(matriz);
   return 0;
 }

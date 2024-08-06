@@ -29,7 +29,6 @@ Responda a lista de exercícios abaixo:
 - [ ] (b) Realiza uma multiplicação
 - [ ] (c) Divide dois números
 - [ ] (d) Calcula a média
--
 
 6. Qual operador é usado para comparar se dois valores são iguais em C?
 - [ ] (a) `=`

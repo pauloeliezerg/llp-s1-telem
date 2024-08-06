@@ -30,7 +30,7 @@ void verificarPar() {
   printf("Digite um número inteiro: \n");
   scanf("%d", &numero);
   char *resultado = numero % 2 ? "ímpar" : "par";
-  printf("O número digitado é %s", resultado);
+  printf("O número digitado é %s\n", resultado);
 }
 
 // 4. Cálculo de Média Ponderada
@@ -44,7 +44,7 @@ void calcularMediaPonderada() {
   printf("Digite a terceira nota: ");
   scanf("%f", &c);
   float resultado = (a*2+b*3+c*5)/10;
-  printf("A média ponderada dessas notas é: %.2f", resultado);
+  printf("A média ponderada dessas notas é: %.2f\n", resultado);
 }
 
 // 5. Troca de Valores

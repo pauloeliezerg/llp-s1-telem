@@ -25,7 +25,7 @@ void verificarAnoBissexto(int ano) {
 // - Descrição: Implemente um programa que leia um número de 1 a 7 e exiba o dia da semana correspondente (1 = domingo, 2 = segunda-feira, etc.).
 // - Dica: Use a estrutura `switch` para associar os números aos dias da semana.
 void contarDiaDaSemana(int num) {
-  char diasDaSemana[7][13] = {
+  char diasDaSemana[7][14] = {
     "domingo",
     "segunda-feira",
     "terça-feira",
@@ -43,7 +43,7 @@ void contarDiaDaSemana(int num) {
     case 5:
     case 6:
     case 7:
-      printf("O dia da semana associado ao número %d é: %s", num, diasDaSemana[num-1]);
+      printf("O dia da semana associado ao número %d é: %s\n", num, diasDaSemana[num-1]);
     break;
     default:
       printf("Número inválido\n");
@@ -56,12 +56,25 @@ void contarDiaDaSemana(int num) {
 // - Dica: Use a expressão `(a > b) ? a : b` para encontrar o maior número.
 void exibirMaiorNumero(int a, int b) {
   int maior = a > b ? a : b;
-  printf("O maior número entre %d e %d é: %d", a, b, maior);
+  printf("O maior número entre %d e %d é: %d\n", a, b, maior);
 }
 
 int main() {
-  // verificarNumero();
-  // verificarAnoBissexto(0);
-  // contarDiaDaSemana(0);
+  verificarNumero();
+  verificarNumero();
+  verificarNumero();
+  verificarAnoBissexto(0);
+  verificarAnoBissexto(4);
+  verificarAnoBissexto(100);
+  verificarAnoBissexto(400);
+  contarDiaDaSemana(0);
+  contarDiaDaSemana(1);
+  contarDiaDaSemana(2);
+  contarDiaDaSemana(3);
+  contarDiaDaSemana(4);
+  contarDiaDaSemana(5);
+  contarDiaDaSemana(6);
+  contarDiaDaSemana(7);
+  exibirMaiorNumero(10, 20);
   return 0;
 }

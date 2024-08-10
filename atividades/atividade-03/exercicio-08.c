@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 // 1. Calculadora Simples
 // - Crie um programa que leia dois números inteiros do usuário e exiba a soma, subtração, multiplicação e divisão desses números.
 void calculadora() {
